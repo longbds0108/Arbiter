@@ -1,1 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e8e3d5"/><stop offset="1" stop-color="#83aaff"/></linearGradient></defs><rect width="64" height="64" rx="16" fill="#17141b"/><path d="M32 13v34M20 47h24M14 22h36" stroke="url(#g)" stroke-width="3.5" stroke-linecap="round"/><path d="M14 22l-6 14a7 7 0 0 0 12 0zM50 22l-6 14a7 7 0 0 0 12 0z" fill="none" stroke="url(#g)" stroke-width="3" stroke-linejoin="round"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <title>Arbiter</title>
+  <defs>
+    <linearGradient id="tile" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#201827"/>
+      <stop offset=".72" stop-color="#131117"/>
+    </linearGradient>
+    <linearGradient id="a" x1="32" y1="14" x2="32" y2="50" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f3efe3"/>
+      <stop offset="1" stop-color="#c9d8f5"/>
+    </linearGradient>
+    <linearGradient id="check" x1="21" y1="42" x2="45" y2="25" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0b53bf"/>
+      <stop offset="1" stop-color="#83aaff"/>
+    </linearGradient>
+    <mask id="cut" maskUnits="userSpaceOnUse" x="0" y="0" width="64" height="64">
+      <rect width="64" height="64" fill="#fff"/>
+      <path d="M21.5 37.5 L28 43.5 L44.5 26.5" stroke="#000" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+    </mask>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="url(#tile)"/>
+  <rect x=".5" y=".5" width="63" height="63" rx="13.5" stroke="#2d2932"/>
+  <path d="M16 50 L32 15.5 L48 50" stroke="url(#a)" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round" mask="url(#cut)"/>
+  <path d="M21.5 37.5 L28 43.5 L44.5 26.5" stroke="url(#check)" stroke-width="4.8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

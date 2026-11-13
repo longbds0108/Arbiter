@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   title: "Arbiter — AI-judged bounties on GenLayer",
   description:
     "Post a bounty, submit a link to your work, and let an intelligent contract judge it. Validators on GenLayer agree on every verdict.",
-  icons: { icon: "/favicon.svg" },
+  icons: { icon: "/favicon.svg", apple: "/apple-touch-icon.png" },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

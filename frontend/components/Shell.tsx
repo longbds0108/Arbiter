@@ -158,7 +158,7 @@ export default function Shell({ children }: { children: ReactNode }) {
     <div className="app-shell">
       <header className="pages-header">
         <Link className="app-header__left pages-brand" href="/" aria-label={t("Arbiter home", "Trang chủ Arbiter")}>
-          <img className="app-logo" src="/favicon.svg" alt="" />
+          <img className="app-logo" src="/logo-mark.svg" alt="" />
           <span className="app-name">Arbiter</span>
         </Link>
         <div className="app-header__right">
