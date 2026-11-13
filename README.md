@@ -12,9 +12,13 @@ The prompt marks the page text as data and tells the judge to ignore any instruc
 
 ## Deployment
 
+**Live app:** https://arbiter-gold.vercel.app
+
 | Network | Contract |
 |---|---|
 | GenLayer Studio (studionet, chain 61999) | `0x94d1c9DC83336bA6247f6C7bCFfE1C119F1Dc7b4` |
+
+The frontend is deployed from `frontend/` to the Vercel project `arbiter` (`vercel.json` sets the Next.js preset). The `NEXT_PUBLIC_*` variables from `frontend/.env.example` are set in the project's Production environment. To redeploy, run `npx vercel deploy --prod` inside `frontend/`.
 
 ## Structure
 
